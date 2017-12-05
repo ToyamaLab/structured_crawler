@@ -19,11 +19,11 @@ class WixFilePipeline(object):
     # CONSTANTS #
     #############
 
-    COMMENT = 'コメント'
-    DESCRIPTION = '説明'
+    COMMENT = 'tabelog.com'
+    DESCRIPTION = ''
     LANGUAGE = 'ja'
     DOCTYPE = '<!DOCTYPE WIX SYSTEM "http://wixdemo.db.ics.keio.ac.jp/wixfile.dtd">'
-    FILE = 'wixtest.wix'
+    FILE = 'tabelog_all.wix'
 
 
     def open_spider(self, spider):
@@ -41,7 +41,6 @@ class WixFilePipeline(object):
         self.language.text = self.LANGUAGE
 
         self.wixtree = etree.ElementTree(element=self.wix)
-
 
     def close_spider(self, spider):
         f = open(self.FILE, 'w')

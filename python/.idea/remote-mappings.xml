@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@ssh://nanadama@passo.db.ics.keio.ac.jp:22/home/toyama/nanadama/scraping/bin/python" />
+      </list>
+    </list>
+  </component>
+</project>

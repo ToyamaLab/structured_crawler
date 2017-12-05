@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE WIX SYSTEM "http://wixdemo.db.ics.keio.ac.jp/wixfile.dtd">
+<WIX>
+  <header>
+    <comment>tabelog.com</comment>
+    <description></description>
+    <language>ja</language>
+  </header>
+  <body/>
+</WIX>

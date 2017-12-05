@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="passo">
+  <component name="PublishConfigData" autoUpload="Always" serverName="passo" showNewOnSourceInSync="false">
     <serverData>
       <paths name="passo">
         <serverdata>
           <mappings>
-            <mapping deploy="/workspace/python" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/myproject" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

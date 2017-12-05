@@ -7,6 +7,12 @@
 
 import scrapy
 
+class WixFileEntry(scrapy.Item):
+    """
+    pipeline通すよう
+    """
+    keyword = scrapy.Field()
+    target = scrapy.Field()
 
 class MyprojectItem(scrapy.Item):
     # define the fields for your item here like:
@@ -47,3 +53,18 @@ class SchemaUsage(scrapy.Item):
     schema_type = scrapy.Field()
     usage = scrapy.Field()
 
+class GeinouHP(scrapy.Item):
+    """
+    http://geinoupro.com/profil.html
+    サイトと書いてある方の抽出
+    """
+    item = scrapy.Field()
+    HP_url = scrapy.Field()
+
+class GeinouBlog(scrapy.Item):
+    """
+    http://geinoupro.com/profil.html
+    ブログの抽出
+    """
+    name = scrapy.Field()
+    HP_blog = scrapy.Field()
